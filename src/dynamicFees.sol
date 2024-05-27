@@ -9,7 +9,7 @@ import {PoolKey} from "v4-core/src/types/PoolKey.sol";
 import {PoolId, PoolIdLibrary} from "v4-core/src/types/PoolId.sol";
 import {BalanceDelta} from "v4-core/src/types/BalanceDelta.sol";
 
-contract Counter is BaseHook {
+contract DynamicFees is BaseHook {
     using PoolIdLibrary for PoolKey;
 
     // NOTE: ---------------------------------------------------------
